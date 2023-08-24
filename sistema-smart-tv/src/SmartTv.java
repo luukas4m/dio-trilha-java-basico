@@ -21,6 +21,11 @@ public class SmartTv {
         System.out.println("Você diminuiu o volume");
     }
 
+    public void mudarCanal (int novoCanal) {
+        canal = novoCanal;
+        System.out.println("Você mudou o canal para : ".concat("Canal ") + novoCanal);
+    }
+
     public void canalParaCima(){
         canal++;
         System.out.println("Você pulou um canal");
